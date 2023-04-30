@@ -17,7 +17,7 @@ I implement several matrix operations:
 Python implementation of the QR and LU matrix decomposition, using the NumPy library.
 
 ### power_method.ipynb
-Implementation of the power method for calculating eigenvalues of a matrix. It was used to determine what the best teams were in "La Liga", a spanish football competition, given real-world data pulled from an API. This was done using stochastic matrices, similar to Google's PageRank algorithm, assuming beating a "good" team gives you more points than beating a "bad" one.
+Implementation of the power method for calculating dominant eigenvalues and eigenvectors of a matrix. I also implement the displaced and inverse power methods, which can ensure convergence for badly behaved cases, or find the other eigenvectors and values by making them the dominant ones. It was used to determine what the best teams were in "La Liga", a spanish football competition, given real-world data pulled from an API. This was done using stochastic matrices, similar to Google's PageRank algorithm, assuming beating a "good" team gives you more points than beating a "bad" one.
 
 
 ### functions.c
