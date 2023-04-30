@@ -4,7 +4,7 @@ Set of numerical utilities and applications developed in C and Python for both N
 
 ## Contents:
 
-### linalg.c
+### [linalg.c](https://github.com/ferranEspuna/numerical_methods/blob/main/linalg.c)
 I implement several matrix operations:
 - Initialization (zero and identity)
 - Transposition
@@ -13,14 +13,14 @@ I implement several matrix operations:
 - LU decomposition
 - Cholesky decomposition
 
-### [QR_LU.ipynb] (https://github.com/ferranEspuna/numerical_methods/blob/main/QR_LU.ipynb)
+### [QR_LU.ipynb](https://github.com/ferranEspuna/numerical_methods/blob/main/QR_LU.ipynb)
 Python implementation of the QR and LU matrix decomposition, using the NumPy library.
 
-### power_method.ipynb
+### [power_method.ipynb](https://github.com/ferranEspuna/numerical_methods/blob/main/power_method.ipynb)
 Implementation of the power method for calculating dominant eigenvalues and eigenvectors of a matrix. I also implement the displaced and inverse power methods, which can ensure convergence for badly behaved cases, or find the other eigenvectors and values by making them the dominant ones. It was used to determine what the best teams were in "La Liga", a spanish football competition, given real-world data pulled from an API. This was done using stochastic matrices, similar to Google's PageRank algorithm, assuming beating a "good" team gives you more points than beating a "bad" one.
 
 
-### functions.c
+### [functions.c](https://github.com/ferranEspuna/numerical_methods/blob/main/functions.c)
 I implement several utilities related to continuous functions including:
 - Representation of functions in finite subsets of R as x, y coordinates
 - Saving these to files for representation using GNUPlot
@@ -30,5 +30,5 @@ I implement several utilities related to continuous functions including:
 - Simple approximations for derivatives and integrals
 - Refining of these approximations in an efficient way via the Richardson and Romberg tricks
 
-### fitting_sigmoid.ipynb
+### [fitting_sigmoid.ipynb](https://github.com/ferranEspuna/numerical_methods/blob/main/fitting_sigmoid.ipynb)
 Very crude algorithm for fitting a sigmoid function to some data. It was supposed to be used to calculate when the COVID cases would "level off", assuming they follow a sigmoid pattern.
