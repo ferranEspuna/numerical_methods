@@ -13,7 +13,7 @@ I implement several matrix operations:
 - LU decomposition
 - Cholesky decomposition
 
-### QR_LU.ipynb
+### [QR_LU.ipynb] (https://github.com/ferranEspuna/numerical_methods/blob/main/QR_LU.ipynb)
 Python implementation of the QR and LU matrix decomposition, using the NumPy library.
 
 ### power_method.ipynb
