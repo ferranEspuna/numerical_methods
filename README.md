@@ -22,7 +22,7 @@ Python implementation of the power method for calculating dominant eigenvalues a
 
 ### [functions.c](https://github.com/ferranEspuna/numerical_methods/blob/main/functions.c)
 C implementation of several utilities related to continuous functions including:
-- Representation of functions in finite subsets of R as x, y coordinates
+- Representation of functions in finite subsets of R as (x, y) coordinates
 - Saving these to files for representation using GNUPlot
 - Newton and Lagrange polynomial interpolation
 - Txebitxev coordinate calculations
