@@ -4,7 +4,7 @@ Set of numerical utilities developed in C and Python for both Numerical Methods 
 
 ## Contents:
 
-# linalg.c
+### linalg.c
 I implement several matrix operations:
 - Initialization (zero and identity)
 - Transposition
@@ -13,7 +13,7 @@ I implement several matrix operations:
 - LU decomposition
 - Cholesky decomposition
 
-# functions.c
+### functions.c
 I implement several utilities related to continuous functions including:
 - Representation of functions in finite subsets of R as x, y coordinates
 - Saving these to files for representation using GNUPlot
