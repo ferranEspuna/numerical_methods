@@ -13,7 +13,7 @@ I implement several matrix operations:
 - LU decomposition
 - Cholesky decomposition
 
-#functions.c
+# functions.c
 I implement several utilities related to continuous functions including:
 - Representation of functions in finite subsets of R as x, y coordinates
 - Saving these to files for representation using GNUPlot
